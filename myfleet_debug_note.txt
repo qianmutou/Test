@@ -31,7 +31,7 @@ getResources().getIdentifier(key, "string", getPackageName())ÕÒ²»µ½×ÊÔ´¡ª¡ª¡ª¡ª¡
 
 public LinearLayout addTextView(Context nowContext,int layoutId,int count)²»ÏÔÊ¾ÕıÈ·µÄÈı¸ötextview¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¿¼ÂÇÊÇonResume·½·¨°ÑonCreate·½·¨µÄsetContentViewÅªÊ§Ğ§ÁË£¬¸´ÖÆSecretaryActµÄÉúÃüÖÜÆÚ·½·¨£¬½á¹ûR.stringÊıÁ¿²»Æ¥Åä£¬¸ü¸Äºófinished£¡
 
-
+test
 
 
 
