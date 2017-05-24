@@ -8,6 +8,11 @@
 第一次提交仓库，除了add 和 commit 命令外，还有 remote add 命令和push -u命令。之后，只需要add commit push三个命令即可。
 
 重启电脑后再打开Git Bash，需要先cd到当前git目录，并重新初始化，然后再添加
+
+一次性添加多个文件，注意别把ssh码等私密信息也加进去
+
+向github添加一个项目，先在github新建一个同名仓库，然后cd到本地这个项目目录，init.然后add
+ commit remote push即可。
 ____________________________________________________________________________
 1,cd learngit
 2,cd test
@@ -15,3 +20,7 @@ ____________________________________________________________________________
 4,git commit -m"anything you want"
 5,git push -u test master
 6,git push test master
+7,git add --all
+8,上一层目录 cd..
+9,git remote add test git@github.com:qianmutou/learngit.git
+10,
