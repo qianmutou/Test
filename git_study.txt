@@ -15,7 +15,7 @@
  commit remote push即可。
 ____________________________________________________________________________
 1,cd learngit
-2,cd test
+2,cd test			cd ~
 3,git add git_study.txt
 4,git commit -m"anything you want"
 5,git push -u test master
