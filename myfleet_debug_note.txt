@@ -25,7 +25,13 @@ edittext输入软键盘的回车后保存信息：用setonkeylistener。并取消焦点。但是如何不让
 getIdentifier()参数报错： ——int stringId = mContext.getResources().getIdentifier("hello","string", mContext.getPackageName());  第二个参数写类别，第三个参数是包名
 
 android.database.sqlite.SQLiteException: near index: syntax error (code 1):——index是sql关键词，改成order_index通过
-getResources().getIdentifier(key, "string", getPackageName())找不到资源——
+getResources().getIdentifier(key, "string", getPackageName())找不到资源——————循环里，布局的textview写多了，造成getIdentifier(key, "string", getPackageName())时，key，第四个和第五个string资源找不到，报错。
+
+###标题，markdown语法测试
+
+public LinearLayout addTextView(Context nowContext,int layoutId,int count)不显示正确的三个textview————————考虑是onResume方法把onCreate方法的setContentView弄失效了，复制SecretaryAct的生命周期方法，结果R.string数量不匹配，更改后finished！
+
+
 
 
 
