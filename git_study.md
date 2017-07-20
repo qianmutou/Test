@@ -9,6 +9,12 @@
 -  commit remote push即可。
 - 2.  github手机版，txt格式中文有乱码，考虑改为md文件，又有格式，还能加超链接和图片。
 - 3.  把别人的项目复制到你的账户-------在他的源码界面点击fork按钮就行
+- 把文件克隆到本地的步骤：
+- 1，cd到你想要克隆的本地目录
+- 2，git init 
+- 3，按照以前的步骤把新的ssh添加到网页的github账户里 
+- 4，git clone git@github.com:qianmutou/test.git    这样就把test仓库的所有文件都克隆到本地了
+- 的
 
 
 
